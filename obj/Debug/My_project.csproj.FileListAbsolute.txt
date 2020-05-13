@@ -25,7 +25,6 @@ Z:\Mr.TiVor\C#\My_project\My_project\obj\Debug\My_project.Prices.resources
 C:\Users\TiVor\Desktop\My_project\My_project\bin\Debug\My_project.exe.config
 C:\Users\TiVor\Desktop\My_project\My_project\bin\Debug\My_project.exe
 C:\Users\TiVor\Desktop\My_project\My_project\bin\Debug\My_project.pdb
-C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.csprojAssemblyReference.cache
 C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.Calculation_results.resources
 C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.Data_input.resources
 C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.Form1.resources
@@ -34,3 +33,4 @@ C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.Properties.Res
 C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.csproj.GenerateResource.cache
 C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.exe
 C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.pdb
+C:\Users\TiVor\Desktop\My_project\My_project\obj\Debug\My_project.csprojAssemblyReference.cache

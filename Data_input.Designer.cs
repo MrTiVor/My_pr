@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Data_input));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.bus_lease = new System.Windows.Forms.RadioButton();
@@ -35,6 +36,8 @@
             this.taxi_lease = new System.Windows.Forms.RadioButton();
             this.input_time = new System.Windows.Forms.TextBox();
             this.button_OK_data_input = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -95,14 +98,14 @@
             // 
             // input_time
             // 
-            this.input_time.Location = new System.Drawing.Point(487, 52);
+            this.input_time.Location = new System.Drawing.Point(185, 84);
             this.input_time.Name = "input_time";
-            this.input_time.Size = new System.Drawing.Size(100, 20);
+            this.input_time.Size = new System.Drawing.Size(148, 20);
             this.input_time.TabIndex = 5;
             // 
             // button_OK_data_input
             // 
-            this.button_OK_data_input.Location = new System.Drawing.Point(511, 225);
+            this.button_OK_data_input.Location = new System.Drawing.Point(532, 225);
             this.button_OK_data_input.Name = "button_OK_data_input";
             this.button_OK_data_input.Size = new System.Drawing.Size(75, 23);
             this.button_OK_data_input.TabIndex = 6;
@@ -110,11 +113,23 @@
             this.button_OK_data_input.UseVisualStyleBackColor = true;
             this.button_OK_data_input.Click += new System.EventHandler(this.button_OK_data_input_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::My_project.Properties.Resources.шеринг;
+            this.pictureBox2.ErrorImage = null;
+            this.pictureBox2.InitialImage = null;
+            this.pictureBox2.Location = new System.Drawing.Point(459, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(224, 207);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
             // Data_input
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 260);
+            this.ClientSize = new System.Drawing.Size(668, 260);
             this.Controls.Add(this.button_OK_data_input);
             this.Controls.Add(this.input_time);
             this.Controls.Add(this.taxi_lease);
@@ -122,8 +137,15 @@
             this.Controls.Add(this.bus_lease);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Data_input";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ввод данных аренды";
+            this.Load += new System.EventHandler(this.Data_input_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +160,6 @@
         private System.Windows.Forms.RadioButton taxi_lease;
         private System.Windows.Forms.TextBox input_time;
         private System.Windows.Forms.Button button_OK_data_input;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

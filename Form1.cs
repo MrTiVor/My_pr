@@ -21,15 +21,33 @@ namespace My_project
         {
             Application.Exit();
         }
-        Prices prices = new Prices();
+       
         private void ценыToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Prices prices = new Prices();
             prices.Show();
         }
-        Data_input DT = new Data_input();
+        
         private void внестиДанныеToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Data_input DT = new Data_input();
             DT.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void стоимостьАрендыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Calculation_results cr = new Calculation_results();
+            cr.Show();
         }
     }
 }

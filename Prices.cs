@@ -16,10 +16,13 @@ namespace My_project
         {
             InitializeComponent();
         }
-
+        Data pr_t = new Data();
+        
         private void Prices_Load(object sender, EventArgs e)
         {
-
+            this.input_price_bus.Text = (" "+Data.price_bus.ToString()+" р");
+            this.input_price_minibus.Text = (" " + Data.price_minibus.ToString() + " р");
+            this.input_price_taxi.Text = (" " + Data.price_taxi.ToString() + " р");
         }
 
         private void Prices_FormClosed(object sender, FormClosedEventArgs e)
@@ -31,12 +34,13 @@ namespace My_project
         {
 
         }
-        public String bus_price
-        {
-            get
-            {
-                return input_price_bus.Text;
-            }
-        }
+
+        //public String bus_price
+        //{
+        //    get
+        //    {
+        //        return input_price_bus.Text;
+        //    }
+        //}
     }
 }
